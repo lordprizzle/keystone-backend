@@ -4,6 +4,12 @@
   "description": "keystone6 backend project",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "dev": "keystone dev",
+    "start": "keystone start",
+    "build": "keystone build",
+    "postinstall": "keystone postinstall"
+  },
   "dependencies": {
     "@keystone-6/auth": "^4.0.1",
     "@keystone-6/cloudinary": "^4.0.1",
